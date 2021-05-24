@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 5vh;
+
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/shoe1.jpg);
+    background-repeat: initial;
+    background-size: cover;
+}
+nav{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    padding: 20px 0px 10px 0px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: 15vh;
+
+}
+nav .head{
+    width: 25%;
+    color: aliceblue;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+
+
+}
+nav .menu{
+   
+   width: 30%;
+   justify-content: space-around;
+   display: flex;
+   align-items: center;
+   
+
+ 
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: azure;
+    }
+    .menu a:first-child{
+        color: rgb(226, 14, 14);
+    }   
+ main{
+     width: 100%;
+     height: 75vh;
+     display: grid;
+     justify-content: center;
+     align-items: center;     
+     text-align: center;
+     }
+
+.body h3{
+    text-transform: uppercase;
+    text-shadow: 3px 1px 3px black;
+    color: white;
+    font-weight: 800;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.body h1{
+    text-transform: uppercase;
+    text-shadow: 3px 1px 3px black;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.animation:after{
+content: '';
+animation: changetext 10s infinite linear;
+color: #0ebd34;
+}
+@keyframes changetext{
+    0%{content: "nigeria";}
+    20%{content: "france";}
+    40%{content: "algeria";}
+    60%{content: "benin";}
+    90%{content: "enugu";}
+}
+.body p{
+    text-transform: capitalize;
+    font-size: 20px;
+    word-spacing: 5px;
+    margin-bottom: 20px;
+}
+.body a{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: all .5s ease;
+    
+
+}
+.btnone{
+    background-color: aqua;
+    border-radius: 6px;
+    padding: 7px;
+    }
+    .btnone:hover{ 
+        background: white;
+        color: black;}
+    .btntwo{
+        background: white;
+        color: black;
+        border-radius: 6px;
+        padding: 7px;
+    }
+    .btntwo:hover{
+        background-color: aqua;
+
+    }
